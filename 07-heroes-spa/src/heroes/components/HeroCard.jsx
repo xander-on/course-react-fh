@@ -21,7 +21,7 @@ export const HeroCard = ({
   }
 
   return (
-    <div className="col">
+    <div className="col animate__animated animate__fadeIn">
       <div className="card">
         <div className="row no-gutters">
 
@@ -40,7 +40,7 @@ export const HeroCard = ({
 
               <CharacterByHero characters={ characters } alter_ego={ alter_ego }/>
 
-              <p className="card-text">
+              <p className="card-text mb-0">
                 <small className="text-muted">{ first_appearance }</small>
               </p>
 
