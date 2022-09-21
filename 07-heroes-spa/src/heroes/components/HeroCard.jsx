@@ -38,7 +38,7 @@ export const HeroCard = ({
                 // ( alter_ego !== characters ) && charactersByHero
               }
 
-              <CharacterByHero characters={ characters } alter_ego={ alter_ego }/>
+              {/* <CharacterByHero characters={ characters } alter_ego={ alter_ego }/> */}
 
               <p className="card-text mb-0">
                 <small className="text-muted">{ first_appearance }</small>
