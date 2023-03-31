@@ -22,10 +22,10 @@ export const HeroCard = ({
 
   return (
     <div className="col animate__animated animate__fadeIn">
-      <div className="card">
+      <div className="card overflow-hidden">
         <div className="row no-gutters">
 
-          <div className="col-4">
+          <div className="col-4 p-0">
             <img src={ heroImageUrl } className="card-img" alt={ superhero } />
           </div>
 

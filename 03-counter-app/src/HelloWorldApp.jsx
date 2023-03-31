@@ -1,2 +1,3 @@
-export const HelloWorldApp = () => 
-  <h1>Hello world App</h1>
+
+
+export const HelloWorldApp = () => <h1>Hello world App</h1>

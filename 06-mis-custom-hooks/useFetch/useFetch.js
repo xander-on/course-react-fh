@@ -8,6 +8,8 @@ export const useFetch = (url) => {
     hasError: null,
   });
   
+
+
   const getFetch = async() => {
 
     setState({
@@ -24,6 +26,7 @@ export const useFetch = (url) => {
       hasError: null
     });
   }
+  
 
   useEffect(() => {
     getFetch();
