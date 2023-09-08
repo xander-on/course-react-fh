@@ -8,14 +8,9 @@ export const TodoApp = () => {
     // const { data: todos = [], isLoading } = useGetTodosQuery();
     const { data: todo, isLoading } = useGetTodoQuery( todoId );
 
-    const nextTodo = () => {
-        setTodoId( todoId + 1 );
-    }
+    const nextTodo = () => setTodoId( todoId + 1 );
 
-    const prevTodo = () => {
-        if ( todoId === 1 ) return;
-        setTodoId( todoId - 1 );
-    }
+    const prevTodo = () =>  todoId !== 1 && setTodoId( todoId - 1 );
 
 
     return (
