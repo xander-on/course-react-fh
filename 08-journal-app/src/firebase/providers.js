@@ -1,5 +1,5 @@
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { FirebaseApp, FirebaseAuth } from "./config";
+import { FirebaseApp, FirebaseAuth }           from "./config";
 
 
 const googleProvider = new GoogleAuthProvider();
@@ -27,5 +27,8 @@ export const singInWithGoogle = async() => {
         }
     }
 }
+
+
+
 
 
