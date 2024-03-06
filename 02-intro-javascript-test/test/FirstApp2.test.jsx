@@ -1,6 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import { FirstApp } from "../src/FirstApp";
 
+//una forma de hacer las pruebas de manera mas ordenada
+
 describe('Pruebas en <FirstApp />', () => {
   const title = 'Hola soy Goku';
   const subTitle = 'Soy un subtitle';
