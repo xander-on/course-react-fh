@@ -30,9 +30,9 @@ describe('Pruebas en 08-imp-exp', () => {
     const owner = 'DC';
     const heroes = getHeroesByOwner( owner );
     const heroesOK = [
-      { id: 1, name: 'Batman', owner: 'DC' },
+      { id: 1, name: 'Batman',   owner: 'DC' },
       { id: 3, name: 'Superman', owner: 'DC' },
-      { id: 4, name: 'Flash', owner: 'DC' }
+      { id: 4, name: 'Flash',    owner: 'DC' }
     ]
 
     expect(heroes.length).toBe(3);
@@ -47,7 +47,6 @@ describe('Pruebas en 08-imp-exp', () => {
     
     const owner = 'Marvel';
     const heroes = getHeroesByOwner( owner );
-
     expect(heroes.length).toBe(2);
 
     expect(heroes).toEqual(dataHeroes.filter( (heroe) => heroe.owner === owner ));

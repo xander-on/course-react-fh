@@ -6,7 +6,9 @@ export const getHeroByIdAsync = ( id ) => {
     setTimeout(()=>{
 
       const personaje = heroes.find( (heroe) => heroe.id === id );
-      personaje ? resolve(personaje) : reject('No se pudo encontrar el Heroe ' + id);
+      personaje 
+        ? resolve(personaje) 
+        : reject('No se pudo encontrar el Heroe ' + id);
       
     }, 1000);
   });
